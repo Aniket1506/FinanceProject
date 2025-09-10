@@ -12,7 +12,7 @@ __pycache__/
 
 # Ignore local data files (optional, in case you put raw Excel/CSV locally)
 data/
-*.csv
+# *.csv
 # *.xlsx
 
 # Ignore OS-specific files
