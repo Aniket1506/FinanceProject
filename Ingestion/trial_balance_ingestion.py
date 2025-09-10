@@ -115,7 +115,7 @@ if __name__ == "__main__":
     print(df.head())
 
     # Write raw ledger data
-    write_to_delta(df, table_name="raw_ledger_data", catalog="finance_demo", schema="raw")
+    write_to_delta(df, table_name="raw_ledger_data", catalog="demo_catlog", schema="finance_demo")
 
     # Enrich with GL mapping and write to new table
     gl_csv_path = "/Workspace/Repos/aniketson@cybage.com/FinanceProject/data/GL Validation.csv"
