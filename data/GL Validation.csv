@@ -1,0 +1,498 @@
+Account_no,GL_Name,GL_Category
+10000,Cash,Cash and cash equivalents
+10001,Transit Webster Operating 6551,Cash and cash equivalents
+10002,Transit Webster Concentration 6560,Cash and cash equivalents
+10003,Transit SVB 6343,Cash and cash equivalents
+10110,Tripshot TOTAL BUS CHK (0853),Cash and cash equivalents
+10111,Tripshot TSPay Checking,Cash and cash equivalents
+10112,Tripshot UBS Core Savings KP95882,Cash and cash equivalents
+10113,Tripshot UBS Insured Sweep Program Account,Cash and cash equivalents
+10114,Tripshot Webster Operating,Cash and cash equivalents
+10813,Bill.com Clearing - Tripshot,Cash and cash equivalents
+10905,TT FASTER - Stripe - New,Cash and cash equivalents
+10010,CTS Webster Operating 3084,Cash and cash equivalents
+10011,CTS Webster Payroll 3097,Cash and cash equivalents
+10012,CTS Webster Collection 3107,Cash and cash equivalents
+10013,CTS PNC Checking 6267,Cash and cash equivalents
+10014,CTS PNC Payroll 6275,Cash and cash equivalents
+10015,CTS PNC MM 6224,Cash and cash equivalents
+10115,Tripshot Webster Collection,Cash and cash equivalents
+10117,Bytecurve Webster Operating,Cash and cash equivalents
+10118,Bytecurve Webster Collection,Cash and cash equivalents
+10119,5/3 BUSINESS STANDARD CHECKING (4314)_Bytecurve,Cash and cash equivalents
+10120,BusHive Key Bank - Checking (x1339),Cash and cash equivalents
+10020,CSS Webster Operating 6506,Cash and cash equivalents
+10022,CSS PNC 1089,Cash and cash equivalents
+10023,CSS PNC 0895,Vendor cash
+10024,CSS Webster Customer 3206,Vendor cash
+10025,CSS Valley Metro 8769,Vendor cash
+10030,Alta Webster Operating 6496,Cash and cash equivalents
+10040,MJM Webster Operating 6522,Cash and cash equivalents
+10042,MJM Webster Collections 6540,Cash and cash equivalents
+10043,MJM Webster Customer 3215,Vendor cash
+10044,MJM PNC 1054,Cash and cash equivalents
+10050,Ecolane Webster Operating 6423,Cash and cash equivalents
+10051,  Ecolane Webster Payroll 6438,Cash and cash equivalents
+10052,Ecolane Webster Collections 6441,Cash and cash equivalents
+10053,Ecolane PNC Local 9528,Cash and cash equivalents
+10054,Ecolane PNC Local 9421,Cash and cash equivalents
+10060,Vestige Webster Operating 6812,Cash and cash equivalents
+10061,Vestige Webster Payroll 6858,Cash and cash equivalents
+10062,Vestige Webster Collections6867,Cash and cash equivalents
+10063,Vestige Wells Fargo 4194,Cash and cash equivalents
+10064,Vestige Wells Fargo 6072,Cash and cash equivalents
+10065,Vestige Wells Fargo 9804,Cash and cash equivalents
+10066,Vestige Wells Fargo 2949,Cash and cash equivalents
+10067,Vestige Wells Fargo 2976,Cash and cash equivalents
+10070,DispatchBot Webster Operating 6902,Cash and cash equivalents
+10073,DispatchBot BECU Checking 1246,Cash and cash equivalents
+10074,CTS checking account 0101,Vendor cash
+10080,ArgoTrak Webster Operations,Cash and cash equivalents
+10081,ArgoTrak Webster Payroll,Cash and cash equivalents
+10082,ArgoTrak Webster Collections,Cash and cash equivalents
+10083,ArgoTrak Regions 1346,Cash and cash equivalents
+10084,ArgoTrak Regions 6294,Cash and cash equivalents
+10090,TT Faster Webster Operating 6874,Cash and cash equivalents
+10091,TT Faster Webster Payroll 6889,Cash and cash equivalents
+10092,TT Faster Webster Collections 6892,Cash and cash equivalents
+10095,Passio Webster Operating,Cash and cash equivalents
+10096,Passio Bank of America ,Cash and cash equivalents
+10097,Passio Webster Payroll,Cash and cash equivalents
+10098,Passio Webster Collection,Cash and cash equivalents
+10100,MJ Operating 6506,Cash and cash equivalents
+10101,MJ PNC 1089,Cash and cash equivalents
+10102,MJ VM Ridechoice 8769,Vendor cash
+10103,MJ Taxicard 3206,Vendor cash
+10104,MJ MTA Customer 3215,Vendor cash
+10105,MJ Operating 6522,Cash and cash equivalents
+10107,MJ PNC 1054,Cash and cash equivalents
+10108,MJ Valley Metro Brokerage,Vendor cash
+10116,Tripshot Webster Customer 5427,Vendor cash
+10120,BusHive Key Bank - Checking (x1339),Vendor cash
+10800,Bill.com Clearing,Vendor cash
+10801,Bill.com Clearing - Transit,Cash and cash equivalents
+10802,Bill.com Clearing - CTS,Cash and cash equivalents
+10803,Bill.com Clearing - Ecolane,Cash and cash equivalents
+10804,Bill.com Clearing - MJM,Cash and cash equivalents
+10805,Bill.com Clearing - CSS,Cash and cash equivalents
+10806,Bill.com Clearing - Vestige,Cash and cash equivalents
+10808,  Bill.com Clearing - TT Faster,Cash and cash equivalents
+10809,Bill.com Clearing - ArgoTrak,Cash and cash equivalents
+10810,Bill.com clearing Passio,Cash and cash equivalents
+10812,Bill.com Clearing - MJM new,Cash and cash equivalents
+10814,Bill.com Clearing - Bytecurve,Cash and cash equivalents
+10815,Bill.com Clearing - busHive,Cash and cash equivalents
+10900,Payment processors,Cash and cash equivalents
+10901,Stripe,Cash and cash equivalents
+10902,Authorize.net,Accounts receivable
+10903,PayPal,Cash and cash equivalents
+10904,TT FASTER - Stripe,Cash and cash equivalents
+10906,TT FASTER - Stripe - New,Cash and cash equivalents
+10910,2CP,Cash and cash equivalents
+10990,Petty cash,Cash and cash equivalents
+10994,Historical Contracts Payments - Ecolane,Accounts receivable
+10999,Undeposited funds,Cash and cash equivalents
+12000,Accounts receivable,Accounts receivable
+12100,Income (Unbilled),Unbilled receivables
+12101,Subscriptions (Unbilled),Unbilled receivables
+12102,Services (Unbilled),Unbilled receivables
+12103,Licenses (Unbilled),Unbilled receivables
+12104,Transactions (Unbilled),Unbilled receivables
+12105,Setup & Implementation (Unbilled),Unbilled receivables
+12106,Hardware (Unbilled),Unbilled receivables
+12107,Discounts & Penalties (Unbilled),Unbilled receivables
+12108,Software Development (Unbilled),Unbilled receivables
+12109,Intercompany (Unbilled),Intercompany
+12110,Other Receivables,Accounts receivable
+12111,Warranties (Unbilled),Unbilled receivables
+12112,Tech-enabled services (Unbilled),Unbilled receivables
+12113,Tech-enabled services (Billed),Accounts receivable
+12114,Professional Services (Unbilled),Unbilled receivables
+12115,Professional Services (Billed),Accounts receivable
+12116,Other Revenue (Unbilled),Unbilled receivables
+12117,Other Revenue (Billed),Accounts receivable
+12119,AR (Unbilled),Unbilled receivables
+12120,Upfront Payments (Unbilled),Unbilled receivables
+12121,HW Installation Services (Unbilled),Unbilled receivables
+12201,Managed Services (Unbilled),Unbilled receivables
+12500,Allowance for bad debt,Accounts receivable
+13000,Prepaid and other current assets,Prepaid expenses and other current assets
+13001,Prepaid expenses,Prepaid expenses and other current assets
+13002,Prepaid software,Prepaid expenses and other current assets
+13003,Prepaid insurance,Prepaid expenses and other current assets
+13004,Rebate receivable,Prepaid expenses and other current assets
+13099,Prepaid other,Prepaid expenses and other current assets
+13100,Accrued revenue,Prepaid expenses and other current assets
+13200,Deferred Commissions - Current,Prepaid expenses and other current assets
+13500,Employee advances,Prepaid expenses and other current assets
+13550,Vendor deposits,Prepaid expenses and other current assets
+14000,Inventory on hand,Inventory
+14100,Inventory -Cleaning,Inventory
+14998,Inventory - IC Markup,Inventory
+14999,Inventory in transit,Inventory
+15000,"Property, plant & equipment","Fixed assets, net"
+15001,Equipment,"Fixed assets, net"
+15002,Furniture and fixtures,"Fixed assets, net"
+15003,Leasehold improvements,"Fixed assets, net"
+15004,Computer equipment,"Fixed assets, net"
+15005,Computer software,"Fixed assets, net"
+15100,Right-of-use asset (ROU),Right-of-use assets
+15500,Accumulated depreciation,"Fixed assets, net"
+15501,Accum depr - equipment,"Fixed assets, net"
+15502,Accum depr - furniture and fixtures,"Fixed assets, net"
+15503,Accum depr - leasehold improvements,"Fixed assets, net"
+15504,Accum depr - computer equipment,"Fixed assets, net"
+15505,Accum Depr - computer software,"Fixed assets, net"
+15600,Accum depr - ROU asset,Right-of-use assets
+16000,Other non-current assets,Other non-current asset
+16001,Inventory capitalization-Halo,Other non-current asset
+16100,Security deposits,Other non-current asset
+16200,Assets leased to customers,Prepaid expenses and other current assets
+16201,Accumulated Depreciation - Leased Assets,Prepaid expenses and other current assets
+16300,Deferred Commissions - Noncurrent,Other non-current asset
+17000,Intercompany receivables,Intercompany
+17004,Due from Transit Technologies LLC,Intercompany
+17005,Due from Ecolane USA,Intercompany
+17006,Due from Ecolane Finland,Intercompany
+17007,Due from CTS,Intercompany
+17008,Due from Vestige,Intercompany
+17009,Due from MJM,Intercompany
+17010,Due from CSS,Intercompany
+17012,Due from DispatchBot,Intercompany
+17013,Due from TT Faster LLC,Intercompany
+17014,Due from ArgoTrak,Intercompany
+17015,Due from Foxster,Intercompany
+17016,Due from Tripshot,Intercompany
+17017,Due from Bytecurve,Intercompany
+17018,Due from BusHive,Intercompany
+17037,Due from CTS (Billed),Intercompany
+17055,Due from Passio,Intercompany
+18000,Intangible Assets,"Goodwill and intangibles, net"
+18010,Goodwill,"Goodwill and intangibles, net"
+18020,Tradename,"Goodwill and intangibles, net"
+18030,Capitalized software,"Goodwill and intangibles, net"
+18040,Acquired software,"Goodwill and intangibles, net"
+18500,Accumulated amortization,"Goodwill and intangibles, net"
+18510,Accum amort - goodwill,"Goodwill and intangibles, net"
+18513,Accum amort - capitalized software,"Goodwill and intangibles, net"
+18520,Accum amort - tradename,"Goodwill and intangibles, net"
+18530,Accum amort - capitalized software,"Goodwill and intangibles, net"
+18540,Accum amort - acquired software,"Goodwill and intangibles, net"
+19000,Investment in subsidiaries,"Goodwill and intangibles, net"
+19004,IIS - CTS,"Goodwill and intangibles, net"
+19005,IIS - Ecolane,"Goodwill and intangibles, net"
+19006,IIS - MJM,"Goodwill and intangibles, net"
+19007,IIS - Vestige,"Goodwill and intangibles, net"
+19008,IIS - DispatchBot,"Goodwill and intangibles, net"
+19009,IIS - TT Faster,"Goodwill and intangibles, net"
+19010,IIS - ArgoTrak,"Goodwill and intangibles, net"
+19011,IIS - Passio,"Goodwill and intangibles, net"
+19012,IIS - Tripshot,"Goodwill and intangibles, net"
+19013,IIS - ByteCurve,"Goodwill and intangibles, net"
+19014,IIS - BusHive,"Goodwill and intangibles, net"
+20000,Accounts payable,Accounts payable
+20100,Non-trade accounts payable,Accounts payable
+20309,Def Rev - Warranties (Paid),Deferred revenue
+20400,Goods Received Not Invoiced,Accounts payable
+20500,Credit card payable,Credit card payables
+20501,Webster - CSS,Credit card payables
+20502,Webster - ArgoTrak,Credit card payables
+20503,Webster - Ecolane,Credit card payables
+20504,Webster - DispatchBot,Credit card payables
+20505,Webster - Vestige,Credit card payables
+20506,Webster - MJM,Credit card payables
+20507,Webster - CTS,Credit card payables
+20508,Webster - TT Faster,Credit card payables
+20509,Webster - Transit,Credit card payables
+20511,Webster - Passio,Credit card payables
+20512,Passio - Amex card,Credit card payables
+20513,Passio - Sparks Visa card,Credit card payables
+20514,Webster - MJM-NEW,Credit card payables
+20515,Chase Credit Card - Tripshot,Credit card payables
+20516,UBS Visa Infinite Business Card - Tripshot,Credit card payables
+20517,Webster - Tripshot,Credit card payables
+20518,Chase - ByteCurve,Credit card payables
+20519,Webster - ByteCurve,Credit card payables
+20599,Credit card payable - other,Credit card payables
+21000,Payroll liabilities,Accrued expenses
+21010,Payroll clearing account,Accrued expenses
+21015,Payroll liabilities - deferred,Accrued expenses
+21016,Payroll liability - 401K withholding,Accrued expenses
+21110,Third Party Pass-through Fees,Other current liabilities
+21115,Third Party Pass-through Fees Offset,Other current liabilities
+22000,Accrued expenses,Accrued expenses
+22001,Accrued payroll,Accrued expenses
+22002,Accrued bonuses,Accrued expenses
+22003,Accrued commissions,Accrued expenses
+22004,Accrued paid time off,Accrued expenses
+22005,Accrued Earnout,Accrued expenses
+22010,Accrued interest,Accrued expenses
+22012,Accrued management fees,Accrued expenses
+22100,Employee expense payable,Accrued expenses
+22102,Income Tax Payable,Income taxes payable
+22103,Income Tax Payable_State,Income taxes payable
+22200,Sales tax payable,Other current liabilities
+22997,Accrued_CalAmp,Accrued expenses
+22998,  Accrued _ Warranty HAAS,Accrued expenses
+22999,Accrued other,Accrued expenses
+24000,Deferred revenue (Order Entry),Deferred revenue
+24005,Def Rev - migration adjustment,Deferred revenue
+24100,Def Rev - Income (Unbilled),Deferred revenue
+24101,Def Rev - Subscriptions (Unbilled),Deferred revenue
+24102,Def Rev - Services (Unbilled),Deferred revenue
+24103,Def Rev - Licenses (Unbilled),Deferred revenue
+24104,Def Rev - Transactions (Unbilled),Deferred revenue
+24105,Def Rev - Setup & Implementation (Unbilled),Deferred revenue
+24106,Def Rev - Hardware (Unbilled),Deferred revenue
+24107,Def Rev - Discounts & Penalties (Unbilled),Deferred revenue
+24109,Def Rev - Warranties (Unbilled),Deferred revenue
+24111,Def Rev - Tech-enabled services (Unbilled),Deferred revenue
+24112,Def Rev - Professional Services (Unbilled),Deferred revenue
+24113,Webster - ArgoTrak,Deferred revenue
+24114,IC - Def Rev,Deferred revenue
+24115,Def Rev - Upfront Payments (Unbilled),Deferred revenue
+24200,Def Rev - Income (Billed),Deferred revenue
+24201,Def Rev - Subscriptions (Billed),Deferred revenue
+24202,Def Rev - Services (Billed),Deferred revenue
+24203,Def Rev - Licenses (Billed),Deferred revenue
+24204,Def Rev - Transactions (Billed),Deferred revenue
+24205,Def Rev - Setup & Implementation (Billed),Deferred revenue
+24206,Def Rev - Hardware (Billed),Deferred revenue
+24207,Def Rev - Discounts & Penalties (Billed),Deferred revenue
+24209,Def Rev - Warranties (Billed),Deferred revenue
+24210,Def Rev - Tech-enabled services (Billed),Deferred revenue
+24212,Def Rev - Professional Services (Billed),Deferred revenue
+24213,Def Rev - Other Revenue (Billed),Deferred revenue
+24214,Def Rev - Upfront Payments (Billed),Deferred revenue
+24215,Def Rev - HW Installation Services (Billed),Deferred revenue
+24301,Def Rev - Subscriptions (Paid),Deferred revenue
+24302,Def Rev - Services (Paid),Deferred revenue
+24303,Def Rev - Licenses (Paid),Deferred revenue
+24305,Def Rev - Setup & Implementation (Paid),Deferred revenue
+24306,Def Rev - Hardware (Paid),Deferred revenue
+24307,Def Rev - Discounts & Penalties (Paid),Deferred revenue
+24310,Def Rev - Tech-enabled services (Paid),Deferred revenue
+24311,Def Rev - Upfront Payments (Paid),Deferred revenue
+24312,Def Rev - Professional Services (Paid),Deferred revenue
+24313,Def Rev - Other Revenue (Paid),Deferred revenue
+24314,Def Rev - HW Installation Services (Paid),Deferred revenue
+24317,Def Rev - Managed Services (Paid),Deferred revenue
+24400,Deferred Rev - Unamortized Haircut,Deferred revenue
+24901,Passio - Sparks Visa card,Credit card payables
+25000,Customer advances,Other current liabilities
+25100,Customer overpayments,Other current liabilities
+25150,CTS Customer Liability - UHC,Other current liabilities
+25200,Customer liabilities,Other current liabilities
+25201,CSS Customer Liability - Valley Metro,Other current liabilities
+25202,Customer Liability - MTA,Other current liabilities
+25203,Valley Metro Brokerage,Other current liabilities
+25204,Tyler API Fee,Other current liabilities
+26000,Lease liabilities_short term,"Lease Liabilities, current portion"
+26001,Note payable_short term,Other current liabilities
+26200,Short-term debt,Short term debt
+26500,Deferred rent liability,Other current liabilities
+27000,Intercompany payables,Intercompany
+27001,Payroll liabilities,Other current liabilities
+27002,Due from / Due to TT Intermediate Corp,Intercompany
+27003,Due from / Due to TT Intermediate LLC,Intercompany
+27004,Due from / Due to Transit Technologies LLC,Intercompany
+27005,Due from / Due to Ecolane USA,Intercompany
+27006,Due from / Due to Ecolane Finland,Intercompany
+27007,Due from / Due to CTS,Intercompany
+27008,Due from / Due to Vestige,Intercompany
+27009,Due from / Due to MJM,Intercompany
+27010,Due from / Due to CSS,Intercompany
+27011,Due from / Due to Alta,Intercompany
+27012,Due from / Due to DispatchBot,Intercompany
+27013,Due from / Due to TT Faster LLC,Intercompany
+27014,Due from / Due to ArgoTrak,Intercompany
+27015,Due from / Due to Foxster,Intercompany
+27023,Due to Vestige (Unbilled),Intercompany
+27038,Due to Vestige (billed),Intercompany
+27053,Due from / Due to Vestige (Paid),Intercompany
+27055,Due from / Due to Passio,Intercompany
+27057,Due from / Due to ByteCurve,Intercompany
+28000,Long-term debt,Long term debt
+28010,Deferred loan cost,Long term debt
+28100,Line of credit - Webster,Long term debt
+29000,Other long term liabilities,Other long term liabilities
+29100,Lease liability,Other long term liabilities
+40000,Income (Billed),Other revenue
+41000,Subscriptions (Billed),Subscriptions
+41001,Subscriptions_pre 3/31,Subscriptions
+41100,Subscriptions (Unbilled),Subscriptions
+41200,Subscriptions (Paid),Subscriptions
+41300,Subscriptions - Financed (Unbilled),Subscriptions
+41400,Subscriptions - Financed (Billed),Subscriptions
+41500,Subscriptoins - Financed (Paid),Subscriptions
+41998,Intercompany - Revenue Markup,Hardware Sales
+41999,Intercompany - HW Revenue,Hardware Sales
+42000,Services (Billed),Services
+42001,Managed Services (Billed),Services
+42100,Services (Unbilled),Services
+42101,Managed Services (Unbilled),Services
+42200,Services (Paid),Services
+42201,Managed Services (Paid),Services
+42300,Tech-enabled services (Unbilled),Services
+42400,Professional Services (Unbilled),Services
+42500,Professional Services (Billed),Services
+42600,Professional Services (Paid),Services
+42601,HW Installation Services (Billed),Setup & Implementation
+42602,HW Installation Services (Unbilled,Setup & Implementation
+42603,HW Installation Services (Paid),Setup & Implementation
+42700,Other Revenue (Unbilled),Other Revenue
+42800,Other Revenue (Billed),Other Revenue
+42900,Other Revenue (Paid),Other Revenue
+43000,Licenses (Billed),Licenses
+43100,Licenses (Unbilled),Licenses
+43200,Licenses (Paid),Licenses
+43400,Tech-enabled services (Billed),Services
+43500,Tech-enabled services (Paid),Services
+43600,Upfront Payments (Billed),Subscriptions
+43700,Upfront Payments (Unbilled),Subscriptions
+43800,Upfront Payments (Paid),Subscriptions
+44000,Transactions (Billed),Transactions
+44100,Transactions (Unbilled),Transactions
+44200,Transactions (Paid),Transactions
+45000,Setup & Implementation (Billed),Setup & Implementation
+45100,Setup & Implementation (Unbilled),Setup & Implementation
+45200,Setup & Implementation (Paid),Setup & Implementation
+46000,Hardware (Billed),Hardware Sales
+46100,Hardware (Unbilled),Hardware Sales
+46200,Hardware (Paid),Hardware Sales
+46300,Hardware - Intercompany,Hardware Sales
+46400,Hardware Markup - Intercompany,Hardware Sales
+46800,Financed HW (Camera) Unbilled,Hardware Sales
+46801,Financed HW (Camera) Billed,Hardware Sales
+46802,Financed HW (Camera) Paid,Hardware Sales
+47000,Software Development (Billed),Services
+47200,Sofware development (paid),Services
+48000,Warranties (Billed),Hardware Sales
+48100,Warranties (Unbilled),Hardware Sales
+48200,Warranties (Paid),Hardware Sales
+49000,Discounts & Penalties (Billed),Other revenue
+49100,Discounts & Penalties (Unbilled),Other revenue
+49200,Discounts & Penalties (Paid),Other revenue
+49900,Sales returns and allowances,Other revenue
+49997,Revenue haircut,Other revenue
+49999,Other revenue (Order Entry),Other revenue
+50000,Cost of goods sold,Other COGS
+50001,Hosting,Hosting and 3rd party system costs
+50002,Third party system costs,Hosting and 3rd party system costs
+50003,Hardware,Hardware
+50004,Development Costs - direct,Payroll and related
+50005,Labor Costs - direct,Labor
+50006,Connectivity,Connectivity
+50007,Used Hardware,Hardware
+50008,Rebate,Other COGS
+50009,Hardware_SAAS amortization,Other COGS
+50010,Supplies and materials - COGS,Other COGS
+50011,Leased asset amortization,Hardware
+50012,RMA expense_COGS,Other COGS
+50015,Program Costs,Other COGS
+50033,Warranty Expense,Other COGS
+50034,COGS - intercompany,Hardware
+59996,Tariff and Shipping Expense,Hardware
+59997,Non-inventory Accessories,Other COGS
+59998,Inventory Spoilage,Hardware
+59999,Inventory Adjustment,Hardware
+60000,Payroll and related,Payroll and related
+60001,Salaries and wages,Payroll and related
+60002,Bonus,Payroll and related
+60003,Commissions,Payroll and related
+60004,Payroll taxes - ER,Payroll and related
+60005,Paid time off,Payroll and related
+60006,Relocation,Payroll and related
+60007,Stipend,Payroll and related
+60008,Amortized Commission,Payroll and related
+60009,Bonus _ Other,Payroll and related
+60010,Cap dev - salaries and wages,Payroll and related
+60100,Employee benefits,Payroll and related
+60101,Employee training,Payroll and related
+60102,401K Expense,Payroll and related
+60200,Payroll processing,Payroll and related
+60999,Other payroll and related costs,Payroll and related
+61000,Sales and marketing,Sales and marketing
+61001,Advertising,Sales and marketing
+61002,Trade shows,Sales and marketing
+62000,Rent and occupancy,Rent and occupancy
+62001,Rent,Rent and occupancy
+62002,Parking,"Travel, meals, and entertainment"
+62003,Utilities,Rent and occupancy
+62004,Cleaning,Rent and occupancy
+62005,Repairs and maintenance,Rent and occupancy
+62006,Office Security,Rent and occupancy
+62010,Cap dev - rent,Rent and occupancy
+62011,Cap dev - facilities,Rent and occupancy
+62999,Other facility costs,Rent and occupancy
+63000,Insurance,Insurance
+63001,General Liability Insurance,Insurance
+63002,Tech E&O / cyber insurance,Insurance
+63003,"Life, STD, LTD",Payroll and related
+63010,Cap dev - insurance,Insurance
+64000,Professional fees,Professional fees
+64001,Accounting fees,Professional fees
+64002,Legal Fees,Professional fees
+64003,Recruiting fees,Professional fees
+64004,Third-party development fees,Professional fees
+64005,One time third party dev fees,Professional fees
+64006,Conference,"Travel, meals, and entertainment"
+65000,"Travel, meals and entertainment","Travel, meals, and entertainment"
+65001,Airfare,"Travel, meals, and entertainment"
+65002,Lodging,"Travel, meals, and entertainment"
+65003,Car rental and public transit,"Travel, meals, and entertainment"
+65004,Mileage,"Travel, meals, and entertainment"
+65005,Parking and Tolls,"Travel, meals, and entertainment"
+65006,Meals and entertainment,"Travel, meals, and entertainment"
+65999,Other travel,"Travel, meals, and entertainment"
+66000,Technology,Technology and Systems
+66001,Software and subscriptions,Technology and Systems
+66002,Computer supplies,Technology and Systems
+66003,Telecommunications,Technology and Systems
+66010,Cap dev - telecom,Technology and Systems
+67000,Other operating expenses,Other operating expenses
+67001,Office equipment,Other operating expenses
+67002,Office supplies,Other operating expenses
+67003,Shipping,Other operating expenses
+67004,Bank fees,Other operating expenses
+67005,Bad debt,Other operating expenses
+67006,Licenses and permits,Other operating expenses
+67007,Merchant processing fees,Other operating expenses
+67008,Dues & Subscriptions,Other operating expenses
+67009,Donation Expense,Other operating expenses
+67010,Dues & Subscription _ top level,Other operating expenses
+67011,Gift,Other operating expenses
+67012,Testing Expense Tripshot,Other operating expenses
+67800,Property taxes,Other operating expenses
+67801,Other taxes,Other operating expenses
+67999,Miscellaneous,Other operating expenses
+70000,Other income,Other operating expenses
+70001,Interest income,Other operating expenses
+71000,Intercompany royalty income,Other operating expenses
+71001,Intercompany management fee income,Other operating expenses
+74000,Realized fx (gain) or loss,Other operating expenses
+80000,Other Expense,Other operating expenses
+80001,Interest expense,Other operating expenses
+80002,Interest Expense - Deferred loan cost,Other operating expenses
+80100,Depreciation,Other operating expenses
+80200,Amortization,Other operating expenses
+80300,Management fees,Management fees
+80400,Acquisition-related costs,Other operating expenses
+80401,ARC 3rd Party Costs,Other operating expenses
+80402,ARC 3rd Party Costs,Other operating expenses
+80403,ARC Meals,Other operating expenses
+80404,ARC Travel,Other operating expenses
+80405,ARC Other,Other operating expenses
+81000,Intercompany royalty expense,Other operating expenses
+81001,Intercompany mangement fee expense,Other operating expenses
+90000,Income tax expense,Other operating expenses
+90001,Federal taxes,Other operating expenses
+90002,State taxes,Other operating expenses
+91000,Gain/Loss in Disposal of Asset,Other operating expenses
+99998,Contract ACP Clearing Account,Other operating expenses
+30000,Equity,Shareholders' equity
+30002,Additional paid in capital,Shareholders' equity
+30300,Contributed capital,Shareholders' equity
+30600,Distributions,Shareholders' equity
+30701,AOCI - Foreign Currency,Shareholders' equity
+39999,Retained earnings,Shareholders' equity

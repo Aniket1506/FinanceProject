@@ -11,7 +11,7 @@ __pycache__/
 .ipynb_checkpoints/
 
 # Ignore local data files (optional, in case you put raw Excel/CSV locally)
-data/
+# data/
 # *.csv
 # *.xlsx
 
