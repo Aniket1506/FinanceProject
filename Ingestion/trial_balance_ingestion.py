@@ -61,7 +61,7 @@ def write_to_delta(df: pd.DataFrame, table_name: str, catalog: str = "demo_catal
         print("⚠️ Spark not available. Skipping Delta write. Running locally only.")
         return
 
-    # spark_df = spark.createDataFrame(df)
+    spark_df = spark.createDataFrame(df)
 
     full_table_name = f"{catalog}.{schema}.{table_name}"
     (
@@ -76,13 +76,13 @@ def write_to_delta(df: pd.DataFrame, table_name: str, catalog: str = "demo_catal
 
 if __name__ == "__main__":
     # Local dev mode
-    file_path = Path("data/Trial Balance YTD Consolidating.xlsx")  # <-- put Excel under /data locally
+    file_path = Path("/Workspace/Repos/aniketson@cybage.com/FinanceProject/data/Trial Balance YTD Consolidating.xlsx")  # <-- put Excel under /data locally
     df = parse_trial_balance(file_path)
     print(df.head())
 
     # Save locally for validation
-    df.to_csv("structured_trial_balance.csv", index=False)
-    print("✅ Structured trial balance saved locally.")
+    # df.to_csv("structured_trial_balance.csv", index=False)
+    # print("✅ Structured trial balance saved locally.")
 
     # In Databricks, also write to Delta
     write_to_delta(df, table_name="raw_ledger_data")
