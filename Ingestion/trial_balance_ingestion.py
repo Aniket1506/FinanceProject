@@ -120,7 +120,7 @@ if __name__ == "__main__":
     # Enrich with GL mapping and write to new table
     gl_csv_path = "/Workspace/Repos/aniketson@cybage.com/FinanceProject/data/GL Validation.csv"
     enrich_with_gl_mapping(
-        ledger_table="finance_demo.raw.raw_ledger_data",
+        ledger_table="demo_catlog.finance_demo.raw_ledger_data",
         gl_csv_path=gl_csv_path,
-        output_table="finance_demo.raw.ledger_with_gl_mapping"
+        output_table="demo_catlog.finance_demo.ledger_with_gl_mapping"
     )
