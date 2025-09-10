@@ -118,7 +118,7 @@ if __name__ == "__main__":
     write_to_delta(df, table_name="raw_ledger_data", catalog="demo_catalog", schema="finance_demo")
 
     # Enrich with GL mapping and write to new table
-    gl_csv_path = "/Workspace/Repos/aniketson@cybage.com/FinanceProject/data/GL Validation.csv"
+    gl_csv_path = "/Volumes/demo_catalog/finance_demo/processed_files/GL Validation.csv"
     enrich_with_gl_mapping(
         ledger_table="demo_catalog.finance_demo.raw_ledger_data",
         gl_csv_path=gl_csv_path,
