@@ -93,7 +93,7 @@ def enrich_and_write(ledger_sdf, gl_sdf):
             (col("Account_number") >= 40000) & (col("Account_number") <= 100000)
         )
 
-        window_spec = Window.partitionBy("Account_no").orderBy("Gl_category")
+        window_spec = Window.partitionBy("Account_no").orderBy("GL_Category")
         gl_df_deduped = gl_sdf.withColumn("row_num", row_number().over(window_spec)) \
                              .filter("row_num = 1") \
                              .drop("row_num")
@@ -106,7 +106,7 @@ def enrich_and_write(ledger_sdf, gl_sdf):
         ).select(
             filtered_ledger_df.Account_number,
             filtered_ledger_df.Company_name,
-            gl_df_deduped.Gl_category,
+            gl_df_deduped.GL_Category,
             filtered_ledger_df.Cost,
             filtered_ledger_df.Date
         )
