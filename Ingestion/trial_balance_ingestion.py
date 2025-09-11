@@ -72,7 +72,7 @@ def convert_to_spark_df(pdf):
 
 
 def read_gl_csv():
-    gl_csv_path = "/mnt/your_mount_path/GL Validation.csv"  # <-- Update this path accordingly
+    gl_csv_path = "/Volumes/demo_catalog/finance_demo/processed_files/GL Validation.csv"  # <-- Update this path accordingly
 
     try:
         logger.info(f"Reading GL Validation CSV from: {gl_csv_path}")
