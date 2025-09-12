@@ -108,7 +108,7 @@ def convert_to_spark_df(pdf):
 # Read GL mapping CSV
 # -------------------------------------------------
 def read_gl_csv():
-    gl_csv_path = "/Volumes/demo_catalog/finance_demo/processed_files/GL Validation.csv"
+    gl_csv_path = "/Volumes/demo_catalog/finance_demo/raw/GL Validation.csv"
     try:
         logger.info(f"Reading GL Validation CSV from: {gl_csv_path}")
         df = spark.read.csv(gl_csv_path, header=True, inferSchema=True)
@@ -190,6 +190,11 @@ def main():
 
             # Parse Excel into pandas
             ledger_pdf = parse_trial_balance_excel(metadata)
+
+            # 🔹 Save structured ledger to CSV (defined in metadata)
+            output_csv = metadata.output_csv
+            ledger_pdf.to_csv(output_csv, index=False)
+            logger.info(f"Structured trial balance saved to CSV: {output_csv}")
 
             # Convert to Spark
             ledger_sdf = convert_to_spark_df(ledger_pdf)
