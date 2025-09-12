@@ -85,21 +85,23 @@ try:
     # FACT LEDGER
     # -------------------------
     fact_ledger = (
-        ledger_df.alias("l")
-        .join(spark.table(DIM_ACCOUNT).alias("a"), 
-              (F.col("l.Account_number") == F.col("a.Account_number")) &
-              (F.col("l.GL_Category") == F.col("a.GL_Category")),
-              "left")
-        .join(spark.table(DIM_COMPANY).alias("c"), F.col("l.Company_name") == F.col("c.Company_name"), "left")
-        .join(spark.table(DIM_DATE).alias("d"), F.col("l.Date") == F.col("d.full_date"), "left")
-        .select(
-            F.row_number().over(Window.orderBy("l.Account_number", "l.Company_name", "l.Date")).alias("ledger_id"),
-            F.col("a.account_id"),
-            F.col("c.company_id"),
-            F.col("d.date_id"),
-            F.col("l.Cost").cast("decimal(18,2)").alias("cost")
+    ledger_df.alias("l")
+    .join(spark.table(DIM_ACCOUNT).alias("a"), 
+          (F.col("l.Account_number") == F.col("a.Account_number")) &
+          (F.col("l.GL_Category") == F.col("a.GL_Category")),
+          "left")
+    .join(spark.table(DIM_COMPANY).alias("c"), F.col("l.Company_name") == F.col("c.Company_name"), "left")
+    .join(spark.table(DIM_DATE).alias("d"), F.col("l.Date") == F.col("d.full_date"), "left")
+    .select(
+        F.row_number().over(Window.orderBy("l.Account_number", "l.Company_name", "l.Date")).alias("ledger_id"),
+        F.col("l.Account_number"),
+        F.col("l.GL_Category"),
+        F.col("l.Company_name"),
+        F.col("l.Date"),
+        F.col("l.Cost").cast("decimal(18,2)").alias("cost")
         )
     )
+
     fact_ledger.write.format("delta").mode("overwrite").option("overwriteSchema", "true").saveAsTable(FACT_LEDGER)
     logger.info(f"Created {FACT_LEDGER} with {fact_ledger.count()} rows")
 
