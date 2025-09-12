@@ -44,7 +44,7 @@ try:
         .select("Account_number", "GL_Category")
         .distinct()
         .withColumn("account_id", 
-                    F.row_number().over(Window.orderBy("Account_no")))
+                    F.row_number().over(Window.orderBy("Account_number")))
     )
     dim_account.write.format("delta").mode("overwrite").option("overwriteSchema", "true").saveAsTable(DIM_ACCOUNT)
     logger.info(f"Created {DIM_ACCOUNT} with {dim_account.count()} rows")
@@ -84,14 +84,14 @@ try:
     fact_ledger = (
         ledger_df.alias("l")
         .join(spark.table(DIM_ACCOUNT).alias("a"), 
-              (F.col("l.Account_no") == F.col("a.Account_no")) &
+              (F.col("l.Account_number") == F.col("a.Account_number")) &
               (F.col("l.GL_Name") == F.col("a.GL_Name")) &
               (F.col("l.GL_Category") == F.col("a.GL_Category")),
               "left")
         .join(spark.table(DIM_COMPANY).alias("c"), F.col("l.Company_name") == F.col("c.Company_name"), "left")
         .join(spark.table(DIM_DATE).alias("d"), F.col("l.Date") == F.col("d.full_date"), "left")
         .select(
-            F.row_number().over(Window.orderBy("l.Account_no", "l.Company_name", "l.Date")).alias("ledger_id"),
+            F.row_number().over(Window.orderBy("l.Account_number", "l.Company_name", "l.Date")).alias("ledger_id"),
             F.col("a.account_id"),
             F.col("c.company_id"),
             F.col("d.date_id"),
