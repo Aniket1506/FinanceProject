@@ -88,7 +88,6 @@ try:
         ledger_df.alias("l")
         .join(spark.table(DIM_ACCOUNT).alias("a"), 
               (F.col("l.Account_number") == F.col("a.Account_number")) &
-              (F.col("l.GL_Name") == F.col("a.GL_Name")) &
               (F.col("l.GL_Category") == F.col("a.GL_Category")),
               "left")
         .join(spark.table(DIM_COMPANY).alias("c"), F.col("l.Company_name") == F.col("c.Company_name"), "left")
