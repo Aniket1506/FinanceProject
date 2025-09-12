@@ -33,7 +33,10 @@ try:
     # -------------------------
     # LOAD SOURCE
     # -------------------------
-    ledger_df = spark.table(SOURCE_TABLE)
+    ledger_df = (
+        spark.table(SOURCE_TABLE)
+        .withColumn("Date", F.to_date("Date", "MM/dd/yyyy"))
+    )
     logger.info(f"Loaded source table {SOURCE_TABLE} with {ledger_df.count()} rows")
 
     # -------------------------
