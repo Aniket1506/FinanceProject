@@ -41,7 +41,7 @@ try:
     # -------------------------
     dim_account = (
         ledger_df
-        .select("Account_number", "GL_Name", "GL_Category")
+        .select("Account_number", "GL_Category")
         .distinct()
         .withColumn("account_id", 
                     F.row_number().over(Window.orderBy("Account_no")))
